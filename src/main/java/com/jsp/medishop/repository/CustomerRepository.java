@@ -6,4 +6,5 @@ import com.jsp.medishop.dto.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Integer>{
 
+	public Customer findByCustomerEmail(String customerEmail);
 }
