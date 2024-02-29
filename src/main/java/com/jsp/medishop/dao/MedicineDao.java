@@ -11,4 +11,5 @@ public interface MedicineDao {
 	public List<Medicine> getAllMedicineDao();
 	
 	public Medicine verifyMedicineByAdminDao(int medicineId);
+	public List<Medicine> getAllMedicineByNameDao(String medicineName);
 }

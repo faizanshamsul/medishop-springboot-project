@@ -48,4 +48,9 @@ public class MedicineDaoImpl implements MedicineDao{
 		}
 	}
 
+	@Override
+	public List<Medicine> getAllMedicineByNameDao(String medicineName) {
+		return medicineRepository.findByMedicineName(medicineName);
+	}
+
 }

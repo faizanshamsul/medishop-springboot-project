@@ -14,4 +14,6 @@ public interface MedicineService {
 	public ResponseStructure<Medicine> getMedicineByIdService(int medicineId);
 	
 	public ResponseEntity<String> verifyMedicineByAdminService(int medicineId);
+	public ResponseStructure<List<Medicine>> getAllMedicineByNameDao(String medicineName);
+
 }

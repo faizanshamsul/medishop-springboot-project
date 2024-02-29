@@ -104,4 +104,10 @@ public class MedicineServiceImpl implements MedicineService{
 		}
 	}
 
+	@Override
+	public ResponseStructure<List<Medicine>> getAllMedicineByNameDao(String medicineName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
